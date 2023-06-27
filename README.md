@@ -86,7 +86,7 @@ Note: The program stores the captured images and attendance records in the respe
       
 6) You can delete the placeholder files I've added in the Attendance,Student Details and Training Image folders
 
-7) After the completion of all this steps syou should be able the following output :
+7) After you run the code the following Interface is shown(follow above instructions for the attendance):
 ![Output](https://github.com/ShreyasShende3/Face-Recognition/blob/main/Screenshot%20(8).png)
 
 ## Known Issues and Errors <a name= "known_issues"></a>
