@@ -65,7 +65,7 @@ The program will open a graphical user interface.
 
 2) There are two main functionalities: Take Images and Track Images.
  - Take Images: Enter the ID and Name of the person and click the "Take Images" button. The program will capture multiple images of the person's face using the webcam and save them for training.
- - Track Images: Click the "Track Images" button to start tracking faces in real-time using the webcam. The program will recognize the faces based on the trained images and display the corresponding ID and Name.
+ - Take Attendance: Click the "Take Attendance" button to start tracking faces in real-time using the webcam. The program will recognize the faces based on the trained images and display the corresponding ID and Name.
 
 3) The program also provides an option to change the password for accessing the functionalities.
 ```
@@ -73,7 +73,20 @@ Defualt Password is : admin
 ```
 Note: The program stores the captured images and attendance records in the respective folders.
 
-4) After the completion of all this steps syou should be able the following output :
+## How to take attendance(follow this) :
+1) Enter ID and Name
+2) Click take images
+3) Save profile using the password
+4) Then click take attendance
+5) Now the data that will be saved in each folder will be :
+    - Attendance :- Saves an excel file for each date which includes ID,Name, Date and Time
+    - Student Deatils :- Saves an excel file for all students added
+    - Training Image :- Saves the images of students taken
+    - Training Label :- Contains the password file and the Trainner file
+      
+6) You can delete the placeholder files I've added in the Attendance,Student Details and Training Image folders
+
+7) After the completion of all this steps syou should be able the following output :
 ![Output](https://github.com/ShreyasShende3/Face-Recognition/blob/main/Screenshot%20(8).png)
 
 ## Known Issues and Errors <a name= "known_issues"></a>
@@ -98,7 +111,7 @@ pip install opencv-contrib-python --user
 - [@Shreyas](https://github.com/ShreyasShende3)
 - [@Aneesh](https://github.com/aneeshkhole)
 - [@Varad](https://github.com/VaradKarajkhede)
-- Atharva Thakar
+- [@Atharva](https://github.com/EuroNOX)
 
 ## License <a name = "license"></a>
 GNU General Public License v3.0
